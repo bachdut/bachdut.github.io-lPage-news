@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(6, 0, 19);
+    overflow: hidden;
+}
+
+.title {
+    color: white;
+    font-family: system-ui;
+    position: fixed;
+    left: 50vw;
+    width: 100%;
+}
+
+.main-title {
+    font-size: 44px;
+    top: 21vh;
+}
+
+.secondary-title {
+    font-size: 26px;
+    top: 33vh;
+}
+
+.space-image {
+    top: 24vh;
+    position: fixed;
+    left: 10vw;
+    width: 38vw;
+    height: 55vh;
+}
+
+.fullName {
+    top: 43vh;
+    left: 50vw;
+    font-family: system-ui;
+    position: fixed;
+    border: none;
+    border-bottom: 2px solid rgb(115, 115, 115);
+    background-color: rgb(6, 0, 19);
+    font-size: 22px;
+    padding-bottom: 1.2vh;
+    color: white;
+}
+
+.email {
+    top: 43vh;
+    left: 65vw;
+    font-family: system-ui;
+    position: fixed;
+    border: none;
+    border-bottom: 2px solid rgb(115, 115, 115);
+    background-color: rgb(6, 0, 19);
+    font-size: 22px;
+    padding-bottom: 1.2vh;
+    color: white;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+.email:placeholder-shown {
+    border: none;
+    border-bottom: 2px solid rgb(115, 115, 115);
+}
+
+.message {
+    top: 52vh;
+    left: 50vw;
+    font-family: system-ui;
+    position: fixed;
+    border: none;
+    border-bottom: 2px solid rgb(115, 115, 115);
+    background-color: rgb(6, 0, 19);
+    font-size: 22px;
+    padding-bottom: 11.2vh;
+    width: 28.2vw;
+    color: white;
+}
+
+.send-button {
+    color: rgb(6, 0, 19);
+    font-size: 20px;
+    position: fixed;
+    background-color: rgb(126 255 152);
+    top: 69vh;
+    height: 7vh;
+    left: 50vw;
+    cursor: pointer;
+}
+
+.required-message {
+    top: 77vh;
+    left: 50vw;
+    position: fixed;
+    font-family: system-ui;
+    color: white;
+    visibility: hidden;
+}

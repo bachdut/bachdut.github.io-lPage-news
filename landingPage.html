@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Purchase domain</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('qQeYtEibjLGxBw7Cv')
+    </script>
+</head>
+
+<body>
+    <img class="space-image" src="space-astro.jpg" alt="A space astronaut">
+    <h1 class="title main-title">Yep! This domain is for sale!</h1>
+    <p class="title secondary-title">Fill the form for inquiry</p>
+
+    <form id="form">
+        <input class="fullName" type="text" id="from_name" name="from_name" placeholder="Full name">
+        <input class="email" type="email" id="email" name="email" placeholder="Email" required>
+        <input class="message" type="text" id="message" name="message" placeholder="Write your message">
+
+        <input type="button" class="send-button" value="Send Email" onclick="sendMessageToEmail()">
+        <div class="required-message">Full name and Email are required.</div>
+    </form>
+</body>
+
+</html>
